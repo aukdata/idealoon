@@ -15,6 +15,7 @@ specifiers:
   react-dom: ^18.1.0
   react-scripts: 5.0.1
   typescript: ^4.6.4
+  ulid: ^2.3.0
   web-vitals: ^2.1.4
 
 dependencies:
@@ -32,6 +33,7 @@ dependencies:
   react-dom: 18.1.0_react@18.1.0
   react-scripts: 5.0.1_react@18.1.0+typescript@4.6.4
   typescript: 4.6.4
+  ulid: 2.3.0
   web-vitals: 2.1.4
 
 packages:
@@ -9356,6 +9358,11 @@ packages:
   /typescript/4.6.4:
     resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
     engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /ulid/2.3.0:
+    resolution: {integrity: sha512-keqHubrlpvT6G2wH0OEfSW4mquYRcbe/J8NMmveoQOjUqmo+hXtO+ORCpWhdbZ7k72UtY61BL7haGxW6enBnjw==}
     hasBin: true
     dev: false
 
